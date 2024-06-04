@@ -1,13 +1,21 @@
 
 import styles from './Hero.module.css';
-import CV from "../../../public/faith-cv.pdf"
+// import CV from "../../../public/faith-cv.pdf"
+
 function Hero() {
   return (
     <>
      <section id='hero' className={styles.container}>
       <div className={styles.colorMode}>
-        {/* <img className={styles.hero}src="faith.JPG" alt="Faith's profile pic"/> */}
-        <img className={styles.colorMode } src="sun.svg" alt="toggle button"/>
+      <img
+          src="faith2.jpg"
+          className={styles.hero}
+          alt="Faith's profile pic"
+        />
+        <img 
+        className={styles.colorMode }
+         src="sun.svg" 
+         alt="toggle button"/>
       </div>
 
       <div className={styles.info}>
@@ -27,8 +35,8 @@ function Hero() {
               <img src="github-light.svg" alt="github-icon"/>
             </a>
           </span>
-          <p>I am a user-focused Front-end developer with almost two years of hands-on experience in creating dynamic user-friendly web applications using React.js and integrating them seamlessly with RESTful APIs. I am an innovative, creative and proven team player. I am committed to delivering captivating digital experiences through innovative design and robust functionality.</p>
-          <a href={CV} download>
+          <p className={styles.description}>I am a user-focused Front-end developer with almost two years of hands-on experience in creating dynamic user-friendly web applications using React.js and integrating them seamlessly with RESTful APIs. I am an innovative, creative and proven team player. I am committed to delivering captivating digital experiences through innovative design and robust functionality.</p>
+          <a href="faith-cv.pdf" download>
             <button className='hover' > Resume</button>
           </a>
           </div>
