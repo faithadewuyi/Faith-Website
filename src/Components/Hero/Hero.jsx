@@ -10,6 +10,7 @@ import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import {  useTheme } from '../../Content/ThemeContext';
+import CV from '../../assets/faith-cv.pdf';
 
 function Hero() {
   const { theme,  toggleTheme } = useTheme();
@@ -50,7 +51,7 @@ function Hero() {
             </a>
           </span>
           <p className={styles.description}>I am a Front-end developer with hands-on experience in creating dynamic user-friendly web applications using React.js. I am an innovative, creative and proven team player. I am committed to delivering captivating digital experiences through innovative design and robust functionality.</p>
-          <a href="faith-cv.pdf" download>
+          <a href={CV}  download>
             <button className='hover' > Resume</button>
           </a>
           </div>
@@ -60,3 +61,5 @@ function Hero() {
 }
 
 export default Hero;
+
+
