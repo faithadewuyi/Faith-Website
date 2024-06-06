@@ -1,4 +1,5 @@
 import "./App.css"
+import Contact from "./Components/Contact/Contact"
 import Hero from "./Components/Hero/Hero"
 import Narbar from "./Components/Navbar/Narbar"
 import Projects from './Components/Projects/Projects'
@@ -14,6 +15,7 @@ function App() {
     <Hero/>
     <Projects/>
     <Skills/>
+    <Contact/>
     
 
     </>
