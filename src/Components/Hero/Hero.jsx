@@ -49,7 +49,7 @@ function Hero() {
               <img src={githubIcon} alt="github-icon"/>
             </a>
           </span>
-          <p className={styles.description}>I am a user-focused Front-end developer with almost two years of hands-on experience in creating dynamic user-friendly web applications using React.js and integrating them seamlessly with RESTful APIs. I am an innovative, creative and proven team player. I am committed to delivering captivating digital experiences through innovative design and robust functionality.</p>
+          <p className={styles.description}>I am a Front-end developer with hands-on experience in creating dynamic user-friendly web applications using React.js. I am an innovative, creative and proven team player. I am committed to delivering captivating digital experiences through innovative design and robust functionality.</p>
           <a href="faith-cv.pdf" download>
             <button className='hover' > Resume</button>
           </a>
