@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #333;
+  background-color: #222;
   padding: 20px 80px;
 }
 .header a{
@@ -30,7 +30,7 @@
   transition: 0.3 ease-in-out;
 }
 #navbar li a:hover{
-  color:blanchedalmond;
+  color:#e28743;
 }
 #mobile{
   display: none;
