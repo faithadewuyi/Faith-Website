@@ -6,7 +6,6 @@
   text-align: center;
   height: 100dvh;
   min-height: 500px;
-  margin-top: 70px;
   padding: 10px 5px; 
   
 
@@ -15,6 +14,7 @@
     max-width: 100%;
     border-radius: 70%;
     margin-right: 50px;
+    margin-top: 200px;
    
   }
 
@@ -39,7 +39,6 @@
 
   button {
     background-color: var(--btn-color);
-    /* color: #e28743; */
     border: none;
     border-radius: 20px;
     width: 126px;
@@ -48,6 +47,7 @@
     font-weight: bold;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    margin-bottom: 20px;
    
   }
 
@@ -61,14 +61,16 @@
   }
 }
 
-.colorModeContainer {
+/* .colorModeContainer {
   position: relative;
-}
+} */
 
 .colorMode {
-  position: absolute;
+  position: fixed;
   right: 0;
+  top: 50%;
   width: 25px;
+   margin-right: 20px;
 }
 
 .colorMode:hover {
@@ -76,11 +78,11 @@
 }
 
 .description {
-  max-width: 600px;
-  font-size: 1.2em;
-   margin-right: 15px;
-   padding: 10px; 
-  text-align: justify;
+  max-width: 100%;
+  font-size: 1.0em;
+  margin-right: 30px;
+  margin-left: 20px;
+  text-align: start;
   line-height: 1.5;
  
 }
